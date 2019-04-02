@@ -58,8 +58,8 @@ CONNECTION_LISTENER_CALLBACKS connection_callbacks = {
   .stageFailed = NULL,
   .connectionStarted = NULL,
   .connectionTerminated = connection_terminated,
-  .displayMessage = connection_display_message,
-  .displayTransientMessage = connection_display_transient_message,
+  .deprecated1 = connection_display_message,
+  .deprecated2 = connection_display_transient_message,
   .logMessage = connection_log_message,
   .rumble = rumble,
 };
